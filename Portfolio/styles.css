@@ -1,0 +1,212 @@
+body{
+    background-color: rgb(111, 12, 150);
+  
+}
+.didi{
+    display: flex;
+    align-items: center;
+    background-color: #181717;
+    padding-bottom:20px ;
+    padding-top: 20px;
+    
+}
+.mabunda
+{
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-shadow: 10px 10px 10px #111;
+    font-size: 40px;
+    justify-content: center;
+}
+
+.bless
+{
+   
+    background-image:linear-gradient(rgba(13, 7, 95, 0.24), rgba(240, 159, 10, 0.685), rgba(1, 27, 73, 0.712)) ,url("myself.PNG");
+    background-size: cover;
+    border: 2px snow #222;
+    border-radius: 20px;
+    margin-left:  50px; ;
+    height: 400px;
+    width: 100%;
+    
+    margin-right: 10%;
+}
+.bless h2
+{
+    text-align: center;
+
+}
+body
+{
+    background-color: #000000;
+}
+.bless hr
+{
+    color: rgb(245, 240, 240);
+}
+.name
+{
+    
+    width:auto;
+    justify-content: center;
+   margin-right: 60px;
+    
+    border-radius: 14px;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.name h1
+{
+    font-size: 40px;
+    color: #f3f3f3;
+}
+.name h2{
+    font-size: 20px;
+}
+.btn-primary {
+    
+    justify-content: center;
+    padding: 10px 20px;
+    background-color: #1971d6;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #e98b11;
+}
+.experience h3
+{
+    font-size:50px ;
+    text-align: center;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container
+{
+    color: #f3f3f3;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    box-shadow:5px 0px 5px 0px #f3f3f3 ;
+    width: 30% auto;
+}
+.container h1
+{
+    font-size: 40px;
+color: #11b7e9;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container h2
+{
+    font-size: 15px;
+color: #ffffff;
+ font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif ;
+}
+hr
+{
+    color: #f3f3f3;
+}
+.skill
+{
+    color: #f3f3f3;
+    background-color: #222222;
+    
+    
+}
+ul, ol {
+    list-style-type: none;
+  }
+.stack
+{
+    width: 30%;
+}
+.skill h1
+{
+width: 45%;
+margin-left: 90px;
+font-size:50px ;
+text-align: center;
+}
+
+.skill h2
+{
+font-size: 30px;
+width: 30%;
+margin-left: 30px ;
+}
+.skill ul li
+{
+    width: 50%;
+    margin-left: 35px;
+}
+
+.skill h3
+{
+font-size: 30px;
+margin-left: 35px ;
+width: 50%;
+}
+.end
+{
+    color: aliceblue;
+    text-align: center;
+}
+footer
+{
+    color: #f3f3f3;
+    text-align: center;
+}
+.laundry
+{
+    display:inline-block;
+    width: auto;
+   text-align: center;
+   justify-content: center;
+}
+.suits
+{
+    display:inline-block;
+    width: auto;
+   text-align: center;
+   justify-content: center;
+}
+@media only screen and (max-width: 767px) {
+    .didi {
+      display: flex;
+      flex-direction: column;
+     
+    }
+    .bless{
+        margin-left: 100px;
+        margin-right: 100px;
+    }
+    .name h1{
+        text-align: center  ;
+        margin-left:  40px; ;
+    }
+    .name h2{
+        text-align: center  ;
+        margin-left:  40px; ; 
+    }
+    hr{
+       margin-left:50px ; 
+    }
+    .name{
+        justify-content: center;
+    }
+    .skill h1{
+        font-size: 30px;
+    }
+  }
+  
