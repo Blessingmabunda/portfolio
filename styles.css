@@ -314,6 +314,20 @@ footer {
     }
 }
 
+/* Image Gallery Styles */
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap; /* Allows the images to wrap onto the next line */
+    gap: 20px; /* Space between images */
+    justify-content: center; /* Center the images */
+}
+
+.image-gallery img {
+    max-width: 100%; /* Ensures images scale properly */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 8px; /* Adds rounded corners for a nicer look */
+}
+
 /* Animations */
 @keyframes fadeIn {
     from {
