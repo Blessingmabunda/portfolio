@@ -14,7 +14,7 @@ body{
 {
     text-align: center;
     color: aliceblue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
     text-shadow: 10px 10px 10px #111;
     font-size: 40px;
     justify-content: center;
@@ -23,7 +23,7 @@ body{
 .bless
 {
    
-    background-image:linear-gradient(rgba(13, 7, 95, 0.24), rgba(240, 159, 10, 0.685), rgba(1, 27, 73, 0.712)) ,url("myself.PNG");
+    background-image:linear-gradient(rgba(13, 7, 95, 0.24), rgba(240, 159, 10, 0.685), rgba(1, 27, 73, 0.712)) ,url("me.jpeg");
     background-size: cover;
     border: 2px snow #222;
     border-radius: 20px;
@@ -72,7 +72,7 @@ body
     
     justify-content: center;
     padding: 10px 20px;
-    background-color: #1971d6;
+    background-color: #d47902;
     color: #fff;
     text-decoration: none;
     border: none;
@@ -104,8 +104,8 @@ body
 .container h1
 {
     font-size: 40px;
-color: #11b7e9;
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: #d47902;
+/* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
 }
 .container h2
 {
