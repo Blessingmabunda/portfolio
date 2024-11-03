@@ -282,64 +282,85 @@ footer {
 }
 
 /* Responsive Design */
+/* Responsive Design */
 @media only screen and (max-width: 768px) {
     .container {
         padding: 20px;
-        margin: 20px;
+        margin: 20px auto; /* Center the container */
+        display: flex; /* Use flexbox */
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center horizontally */
     }
 
     .bless {
         height: 300px;
-        margin: 20px auto;
+        width: auto; /* Allow width to be automatic */
+        margin: 20px auto; /* Center the image */
+    }
+
+    .name {
+        text-align: center; /* Ensure name section is centered */
     }
 
     .name h1 {
         font-size: 2.2rem;
+        text-align: center; /* Center heading */
     }
 
     .name h2 {
         font-size: 1.1rem;
+        text-align: center; /* Center subheading */
     }
 
     .card {
-        margin-bottom: 20px;
+        margin: 10px auto; /* Center cards with auto margins */
+        width: calc(100% - 40px); /* Responsive width with some padding */
+        max-width: 600px; /* Limit max-width for better appearance */
     }
 
     .stack li, .Skills li {
-        width: calc(50% - 20px);
+        width: calc(50% - 20px); /* Responsive width */
+        margin: 10px; /* Add margin for spacing */
+    }
+
+    .end {
+        padding: 40px 20px;
+        margin: 20px auto; /* Center the end section */
+        max-width: 100%; /* Make full width */
+        display: flex; /* Use flexbox */
+        flex-direction: column; /* Stack items */
+        align-items: center; /* Center items */
     }
 
     .end h1 {
         font-size: 2rem;
+        text-align: center; /* Center heading */
+    }
+
+    .end p {
+        text-align: center; /* Center paragraph */
     }
 }
 
-/* Image Gallery Styles */
-.image-gallery {
-    display: flex;
-    flex-wrap: wrap; /* Allows the images to wrap onto the next line */
-    gap: 20px; /* Space between images */
-    justify-content: center; /* Center the images */
-}
-
-.image-gallery img {
-    max-width: 100%; /* Ensures images scale properly */
-    height: auto; /* Maintains aspect ratio */
-    border-radius: 8px; /* Adds rounded corners for a nicer look */
-}
-
-/* Animations */
-@keyframes fadeIn {
-    from {
-        opacity: 0;
-        transform: translateY(20px);
+/* Additional media query for very small screens */
+@media only screen and (max-width: 480px) {
+    .bless {
+        height: 200px; /* Reduce height for small screens */
     }
-    to {
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
 
-.card, .education-card, .bless {
-    animation: fadeIn 0.6s ease-out;
+    .name h1 {
+        font-size: 1.8rem; /* Further reduce font size */
+    }
+
+    .name h2 {
+        font-size: 1rem; /* Adjust subheading size */
+    }
+
+    .stack li, .Skills li {
+        width: 100%; /* Stack items vertically */
+    }
+
+    .end h1 {
+        font-size: 1.8rem; /* Reduce end section heading size */
+    }
 }
