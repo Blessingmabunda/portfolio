@@ -74,6 +74,7 @@ body {
     width: 100%;
     
     margin-right: 10%;
+    margin-bottom: 10%;
 }
 
 .bless:hover {
@@ -224,7 +225,7 @@ body {
     color: #fff;
     text-decoration: none;
     border: none;
-    border-radius: 30px;
+    border-radius: 10px;
     font-size: 1.1rem;
     transition: all 0.3s ease;
     margin: 10px;
@@ -293,29 +294,32 @@ footer {
     }
 
     .bless {
-        height: 300px;
+        max-height: 600px; /* Set a maximum height as needed */
+        height: auto; /* Keep auto for flexibility */
         width: auto; /* Allow width to be automatic */
-        margin: 20px auto; /* Center the image */
+        margin: 50px auto; /* Center the image */
     }
-
+    
     .name {
-        text-align: center; /* Ensure name section is centered */
+        text-align: center; /* Center text */
     }
 
     .name h1 {
         font-size: 2.2rem;
-        text-align: center; /* Center heading */
+        margin: 0; /* Remove default margin */
     }
 
     .name h2 {
         font-size: 1.1rem;
-        text-align: center; /* Center subheading */
+        margin: 0; /* Remove default margin */
     }
 
     .card {
         margin: 10px auto; /* Center cards with auto margins */
         width: calc(100% - 40px); /* Responsive width with some padding */
         max-width: 600px; /* Limit max-width for better appearance */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+        border-radius: 10px; /* Round corners */
     }
 
     .stack li, .Skills li {
@@ -326,7 +330,7 @@ footer {
     .end {
         padding: 40px 20px;
         margin: 20px auto; /* Center the end section */
-        max-width: 100%; /* Make full width */
+        max-width: 100%; /* Full width */
         display: flex; /* Use flexbox */
         flex-direction: column; /* Stack items */
         align-items: center; /* Center items */
@@ -334,11 +338,33 @@ footer {
 
     .end h1 {
         font-size: 2rem;
-        text-align: center; /* Center heading */
+        margin: 0; /* Remove default margin */
     }
 
     .end p {
         text-align: center; /* Center paragraph */
+        margin: 10px 0; /* Add margin for spacing */
+    }
+
+    .btn-primary {
+        display: block; /* Change to block to allow margin auto centering */
+        padding: 12px 30px; /* Button padding */
+        background-color: #d47902; /* Button background color */
+        color: #fff; /* Text color */
+        text-decoration: none; /* Remove underline */
+        border: none; /* No border */
+        border-radius: 10px; /* Rounded corners */
+        font-size: 1.1rem; /* Font size */
+        transition: background-color 0.3s ease; /* Smooth transition */
+        margin: 10px auto; /* Center button horizontally */
+        font-weight: 500; /* Medium weight */
+        cursor: pointer; /* Pointer on hover */
+        max-width: 200px; /* Optional: limit button width */
+        text-align: center; /* Center text inside button */
+    }
+
+    .btn-primary:hover {
+        background-color: #b76c02; /* Darker shade on hover */
     }
 }
 
@@ -363,4 +389,11 @@ footer {
     .end h1 {
         font-size: 1.8rem; /* Reduce end section heading size */
     }
+    
+    .btn-primary {
+        padding: 10px 20px; /* Adjust padding for smaller screens */
+        font-size: 1rem; /* Adjust button text size */
+        max-width: 150px; /* Optional: limit button width for smaller screens */
+    }
 }
+
